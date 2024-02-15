@@ -1,0 +1,13 @@
+.input {
+  --color-bg-input: #131415;
+  --color-input: #ffffff;
+  --color-border-input: #2f3035;
+
+  width: 100%;
+  padding: 2px 16px;
+  background-color: var(--color-bg-input);
+  color: var(--color-input);
+  border: 1px solid var(--color-border-input);
+  border-radius: 5px;
+  outline: none;
+}

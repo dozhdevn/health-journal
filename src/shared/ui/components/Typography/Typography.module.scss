@@ -1,0 +1,45 @@
+.typography {
+  --size-text-xl: 40px;
+  --size-text-l: 20px;
+  --size-text-m: 16px;
+  --size-text-s: 14px;
+  --size-text-xs: 12px;
+
+  line-height: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.center {
+  text-align: center;
+}
+
+.size-xl {
+  font-size: var(--size-text-xl);
+}
+
+.size-l {
+  font-size: var(--size-text-l);
+}
+
+.size-m {
+  font-size: var(--size-text-m);
+}
+
+.size-s {
+  font-size: var(--size-text-s);
+}
+
+.size-xs {
+  font-size: var(--size-text-xs);
+}
+
+.regular {
+  font-weight: var(--font-weight-regular);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+

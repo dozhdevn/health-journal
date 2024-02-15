@@ -1,0 +1,22 @@
+.burger {
+  @media (width >= 768px) {
+    display: none;
+  }
+}
+
+.button {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.menu {
+  position: absolute;
+  top: var(--size-header);
+  left: 0;
+  right: 0;
+
+  > ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

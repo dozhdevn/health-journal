@@ -1,0 +1,38 @@
+.parameter {
+  --size-parameter-large: 165px;
+  --size-parameter-small: 76px;
+
+  width: 280px;
+  gap: 6px;
+  transition: height 0.1s ease-out;
+}
+
+.large {
+  height: var(--size-parameter-large);
+}
+
+.small {
+  height: var(--size-parameter-small);
+}
+
+.sliderWrap {
+  width: 100%;
+  gap: 8px;
+}
+
+.input {
+  min-height: 24px;
+}
+
+.slider {
+  flex: 1;
+  max-width: 196px;
+
+  &.isSmall {
+    max-width: 120px;
+  }
+}
+
+.actions {
+  width: 100%;
+}

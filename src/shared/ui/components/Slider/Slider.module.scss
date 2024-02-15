@@ -1,0 +1,59 @@
+.slider {
+  --size-slider-track: 10px;
+
+  --color-bg-slider-track: #3f3f40;
+  --color-border-slider-thumb: #ff7e1d;
+  --color-bg-slider-fill: #ff7e1d;
+
+  position: relative;
+  width: 100%;
+  touch-action: none
+}
+
+.input {
+  position: absolute;
+  z-index: 10;
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+  top: -3px;
+  cursor: pointer;
+
+  &:active {
+    cursor: pointer;
+  }
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: var(--size-slider-track);
+    height: var(--size-slider-track);
+  }
+}
+
+.thumb {
+  position: absolute;
+  background-color: transparent;
+  border: 2px solid var(--color-border-slider-thumb);
+  border-radius: 50%;
+  width: var(--size-slider-track);
+  height: var(--size-slider-track);
+  top: -3px;
+}
+
+.track {
+  width: 100%;
+  background-color: var(--color-bg-slider-track);
+  position: absolute;
+  height: 4px;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+}
+
+.fill {
+  left: 0;
+  position: absolute;
+  background-color: var(--color-bg-slider-fill);
+  height: 4px;
+  border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.header {
+  --size-header: 56px;
+
+  --color-bg-header: #0a0a0a;
+  --color-border-header: #2f3035;
+
+  height: var(--size-header);
+  background-color: var(--color-bg-header);
+  border-bottom: 1px solid var(--color-border-header);
+
+  position: sticky;
+  top: 0;
+  padding: 0 10px;
+  z-index: 1000;
+}
+
+@media (width <= 768px) {
+  .header.header {
+    justify-content: flex-end;
+  }
+
+  .list {
+    display: none;
+  }
+}

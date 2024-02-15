@@ -1,0 +1,9 @@
+.info {
+  gap: 15px;
+}
+
+@media (width <= 768px) {
+  .info.info {
+    flex-direction: column;
+  }
+}

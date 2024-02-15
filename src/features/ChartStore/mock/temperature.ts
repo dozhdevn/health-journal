@@ -1,0 +1,1 @@
+export const mockedTemperatureData = [35.7, 38, 36.8, 36.6, 36.5, 36.7, 37.7, 37.1, 38.1]

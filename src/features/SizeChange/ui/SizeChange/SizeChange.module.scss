@@ -1,0 +1,7 @@
+.root {
+  gap: 50px;
+
+  @media (width <= 768px) {
+    gap: 15px;
+  }
+}
