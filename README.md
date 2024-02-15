@@ -1,8 +1,8 @@
 Данный проект создан с помощью фреймворка [Next.js](https://nextjs.org/)
 
-## Getting Started
+## Для запуска проекта
 
-First, run the development server:
+Сначала запустите сервер разработки:
 
 ```bash
 npm run dev
@@ -14,23 +14,14 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Откройте [http://localhost:3000](http://localhost:3000) с помощью бразуера, чтобы увидеть результат.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Дополнительно:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Для получения уникального ключа, для загрузки погоды, создайте файл .env.local в корне проекта и введите в него следущее:
 
-## Learn More
+```sh
+NEXT_PUBLIC_PRIVATE_KEY = 0e9c8e861c824cf7b5b131839241202
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
